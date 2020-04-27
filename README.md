@@ -19,3 +19,34 @@ In this paper we propose a novel framework, Latent-Class Hough Forests, for 3D o
 ## Downloads
 [Paper](./docs/ECCV_2014.pdf)
 [Poster](./docs/ECCV_2014_poster.pdf)
+
+## Dataset
+[Read info](./dataset/info.txt) - [Old object models 12.9MB](./dataset/Meshes.zip) - [New object models 16.7MB](./dataset/new_models.zip)
+
+Updated annotation for: [Old object models 2.4MB](./dataset/annotation_old_models.zip) - [New object models 2.4MB](./dataset/annotation_new_models.zip)
+
+Objects: [Coffee cup 809MB](https://drive.google.com/file/d/1wQ64Lka3Q4wa9Ud_AJIWoUr0QDR4Kbd7/view?usp=sharing) - [Shampoo 1.16GB](https://drive.google.com/file/d/12-AAFlrmADh9Q59n2hMVwH0tMNyTXJYr/view?usp=sharing) - [Joystick 1.17GB](https://drive.google.com/file/d/1_efP-vKkXzcNBg08Y4wqDSA2yXL93m_i/view?usp=sharing) - [Camera 820 MB](https://drive.google.com/file/d/1NH1MB3UqPEx6tpHLnEO-eTp6xBBRnaLw/view?usp=sharing) - [Juice carton 980MB](https://drive.google.com/file/d/1P-jtj1tslZpgdormsjDePNH2A5n3nrqN/view?usp=sharing) - [Milk 962MB](https://drive.google.com/file/d/1WoyHAivf37Nm5sSxFYoTdRVq3b_ktDH2/view?usp=sharing)
+
+If you make use of the dataset please cite:
+```
+@article{tejani2017latent,
+  title={Latent-class hough forests for 6 DoF object pose estimation},
+  author={Tejani, Alykhan and Kouskouridas, Rigas and Doumanoglou, Andreas and Tang, Danhang and Kim, Tae-Kyun},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={40},
+  number={1},
+  pages={119--132},
+  year={2017},
+  publisher={IEEE}
+}
+```
+```
+@inproceedings{tejani2014latent,
+  title={Latent-class hough forests for 3D object detection and pose estimation},
+  author={Tejani, Alykhan and Tang, Danhang and Kouskouridas, Rigas and Kim, Tae-Kyun},
+  booktitle={European Conference on Computer Vision},
+  pages={462--477},
+  year={2014},
+  organization={Springer}
+}
+```
