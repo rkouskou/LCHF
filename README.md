@@ -13,8 +13,8 @@ In this paper we propose a novel framework, Latent-Class Hough Forests, for 3D o
 
 ## Videos
 [Video 1](https://www.youtube.com/watch?v=R-ZdKxgGq4A)
-[Video 1](https://www.youtube.com/watch?v=idY3Q7wg5rk)
-[Video 1](https://www.youtube.com/watch?v=dh2VtnnsGuY)
+[Video 2](https://www.youtube.com/watch?v=idY3Q7wg5rk)
+[Video 3](https://www.youtube.com/watch?v=dh2VtnnsGuY)
 
 ## Downloads
 [Paper](./docs/ECCV_2014.pdf)
