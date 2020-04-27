@@ -1,0 +1,33 @@
+Information regarding the dataset related to our ECCV 2014 paper "Latent-Class Hough Forests for 3D Object Detection and Pose Estimation".
+
+In case you run into problems contact r.kouskouridas@imperial.ac.uk
+
+We have recorded 6 different objects under varying viewpoint with lots of background clutter, foreground occlusions, large scale and pose changes and multi-instance objects.
+
+We provide a ground-truth label dataset for 6 different objects:
+	Coffee Cup
+	Shampoo
+	Joystick
+	Camera
+	Juice Carton
+	Milk
+
+
+The meshes utilised for training are available at http://www.iis.ee.ic.ac.uk/~rkouskou/
+
+Ground truth labelling is acquired via the ArUco library that offers high accuracy annotation in high frame rates. 
+
+For each object we have created 4 different folders:
+
+	Annotation: We store in a .txt format the 6 Degrees of Freedom (6 DoF) of the object instance(s) in terms of a 4X4 transformation matrix, i.e 3X3 rotation matrix R, 3x1 translation vector T and [0 0 0 1] scale factor.
+	
+	Depth: This folder contains the acquired depth images. 
+	
+	Label: This folder contains the RGB overlaid with augmented 3D axes for labelling evaluation purposes.
+	
+	RGB: This folder contains the RGB images.
+
+The camera utilised is the one of PrimeSense (short range sensor) with the following parameters:
+
+Focal length (571.9737, 571.0073)
+Principal point (319.5000, 239.5000)
